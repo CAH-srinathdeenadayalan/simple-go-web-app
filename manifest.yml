@@ -3,7 +3,9 @@ applications:
 - name: simple-go-web-app
   disk: 256M
   memory: 128M
-  random-route: true
+  random-route: false
   buildpack: go_buildpack
+  routes:
+  - route: simple-go-web-app.apps.local.pcfdev.io
   env:
     GOPACKAGENAME: simple-go-web-app
