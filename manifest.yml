@@ -5,6 +5,6 @@ applications:
   memory: 128M
   buildpack: go_buildpack
   routes:
-  - route: simple-go-web-app.apps.local.pcfdev.io
+  - route: simple-go-web-app.local.pcfdev.io
   env:
     GOPACKAGENAME: simple-go-web-app
